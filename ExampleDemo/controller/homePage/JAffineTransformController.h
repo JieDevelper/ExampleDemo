@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JBaseViewController.h"
 
-@interface JAffineTransformController : UIViewController
+@interface JAffineTransformController : JBaseViewController
 
 @end

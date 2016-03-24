@@ -6,8 +6,10 @@
 //  Copyright © 2016年 zj. All rights reserved.
 //
 
-#ifndef JPublic_Heard_h
-#define JPublic_Heard_h
+//define this constant if you want to use Masonry without the 'mas_' prefix
+#define MAS_SHORTHAND
 
+//define this constant if you want to enable auto-boxing for default syntax
+#define MAS_SHORTHAND_GLOBALS
 
-#endif /* JPublic_Heard_h */
+#import "Masonry.h"

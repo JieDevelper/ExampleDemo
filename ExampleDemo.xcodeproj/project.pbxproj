@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14475D645D117867791073F8 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C9F7CE54CEE4951E6AA148DD /* libPods.a */; };
 		2F95D8751CA13CA000998288 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D8741CA13CA000998288 /* main.m */; };
 		2F95D8781CA13CA000998288 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D8771CA13CA000998288 /* AppDelegate.m */; };
-		2F95D87B1CA13CA000998288 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D87A1CA13CA000998288 /* ViewController.m */; };
 		2F95D87E1CA13CA000998288 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F95D87C1CA13CA000998288 /* Main.storyboard */; };
 		2F95D8801CA13CA000998288 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F95D87F1CA13CA000998288 /* Assets.xcassets */; };
 		2F95D8831CA13CA000998288 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F95D8811CA13CA000998288 /* LaunchScreen.storyboard */; };
 		2F95D88E1CA13CA000998288 /* ExampleDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D88D1CA13CA000998288 /* ExampleDemoTests.m */; };
 		2F95D8991CA13CA000998288 /* ExampleDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D8981CA13CA000998288 /* ExampleDemoUITests.m */; };
+		2F95D8AA1CA1530A00998288 /* JBaseAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D8A91CA1530A00998288 /* JBaseAnimationController.m */; };
+		2F95D8AD1CA1539300998288 /* JLeftSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D8AC1CA1539300998288 /* JLeftSwipeViewController.m */; };
+		2F95D8B01CA153A700998288 /* JRightSwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F95D8AF1CA153A700998288 /* JRightSwipeViewController.m */; };
+		2FB0F88D1CA26C6400A46EB7 /* JKeyFrameAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0F88C1CA26C6400A46EB7 /* JKeyFrameAnimationController.m */; };
+		2FB0F8901CA26C7A00A46EB7 /* JGroupAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0F88F1CA26C7A00A46EB7 /* JGroupAnimationController.m */; };
+		2FB0F8931CA26C9B00A46EB7 /* JTransitionAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0F8921CA26C9B00A46EB7 /* JTransitionAnimationController.m */; };
+		2FB0F8961CA26CAE00A46EB7 /* JAffineTransformController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0F8951CA26CAE00A46EB7 /* JAffineTransformController.m */; };
+		2FB0F8991CA26CBD00A46EB7 /* JComprehensiveCaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0F8981CA26CBD00A46EB7 /* JComprehensiveCaseController.m */; };
+		2FB0F89C1CA26D9500A46EB7 /* JBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0F89B1CA26D9500A46EB7 /* JBaseViewController.m */; };
+		2FB0F89F1CA26F7300A46EB7 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2FB0F89E1CA26F7300A46EB7 /* UIViewController+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,21 +46,43 @@
 
 /* Begin PBXFileReference section */
 		2F95D8701CA13CA000998288 /* ExampleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExampleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2F95D8741CA13CA000998288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2F95D8761CA13CA000998288 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2F95D8771CA13CA000998288 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2F95D8791CA13CA000998288 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2F95D87A1CA13CA000998288 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2F95D8741CA13CA000998288 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../main.m; sourceTree = "<group>"; };
+		2F95D8761CA13CA000998288 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		2F95D8771CA13CA000998288 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		2F95D87D1CA13CA000998288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2F95D87F1CA13CA000998288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F95D87F1CA13CA000998288 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		2F95D8821CA13CA000998288 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2F95D8841CA13CA000998288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F95D8841CA13CA000998288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		2F95D8891CA13CA000998288 /* ExampleDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F95D88D1CA13CA000998288 /* ExampleDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleDemoTests.m; sourceTree = "<group>"; };
 		2F95D88F1CA13CA000998288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F95D8941CA13CA000998288 /* ExampleDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExampleDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F95D8981CA13CA000998288 /* ExampleDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleDemoUITests.m; sourceTree = "<group>"; };
 		2F95D89A1CA13CA000998288 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F95D8A81CA1530A00998288 /* JBaseAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JBaseAnimationController.h; path = ../JBaseAnimationController.h; sourceTree = "<group>"; };
+		2F95D8A91CA1530A00998288 /* JBaseAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JBaseAnimationController.m; path = ../JBaseAnimationController.m; sourceTree = "<group>"; };
+		2F95D8AB1CA1539300998288 /* JLeftSwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLeftSwipeViewController.h; sourceTree = "<group>"; };
+		2F95D8AC1CA1539300998288 /* JLeftSwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLeftSwipeViewController.m; sourceTree = "<group>"; };
+		2F95D8AE1CA153A700998288 /* JRightSwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRightSwipeViewController.h; sourceTree = "<group>"; };
+		2F95D8AF1CA153A700998288 /* JRightSwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRightSwipeViewController.m; sourceTree = "<group>"; };
+		2F95D8B11CA155B400998288 /* JPublic_Heard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JPublic_Heard.h; sourceTree = "<group>"; };
+		2FB0F88B1CA26C6400A46EB7 /* JKeyFrameAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKeyFrameAnimationController.h; sourceTree = "<group>"; };
+		2FB0F88C1CA26C6400A46EB7 /* JKeyFrameAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKeyFrameAnimationController.m; sourceTree = "<group>"; };
+		2FB0F88E1CA26C7A00A46EB7 /* JGroupAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGroupAnimationController.h; sourceTree = "<group>"; };
+		2FB0F88F1CA26C7A00A46EB7 /* JGroupAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGroupAnimationController.m; sourceTree = "<group>"; };
+		2FB0F8911CA26C9B00A46EB7 /* JTransitionAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTransitionAnimationController.h; sourceTree = "<group>"; };
+		2FB0F8921CA26C9B00A46EB7 /* JTransitionAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTransitionAnimationController.m; sourceTree = "<group>"; };
+		2FB0F8941CA26CAE00A46EB7 /* JAffineTransformController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JAffineTransformController.h; sourceTree = "<group>"; };
+		2FB0F8951CA26CAE00A46EB7 /* JAffineTransformController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JAffineTransformController.m; sourceTree = "<group>"; };
+		2FB0F8971CA26CBD00A46EB7 /* JComprehensiveCaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JComprehensiveCaseController.h; sourceTree = "<group>"; };
+		2FB0F8981CA26CBD00A46EB7 /* JComprehensiveCaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JComprehensiveCaseController.m; sourceTree = "<group>"; };
+		2FB0F89A1CA26D9500A46EB7 /* JBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JBaseViewController.h; sourceTree = "<group>"; };
+		2FB0F89B1CA26D9500A46EB7 /* JBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JBaseViewController.m; sourceTree = "<group>"; };
+		2FB0F89D1CA26F7300A46EB7 /* UIViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		2FB0F89E1CA26F7300A46EB7 /* UIViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		BEEB6D6260357927A0B57E23 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		C9F7CE54CEE4951E6AA148DD /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CED2AD57F00F66E1033F978D /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14475D645D117867791073F8 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +118,8 @@
 				2F95D88C1CA13CA000998288 /* ExampleDemoTests */,
 				2F95D8971CA13CA000998288 /* ExampleDemoUITests */,
 				2F95D8711CA13CA000998288 /* Products */,
+				C3EF5BAAAB4728AA4F07E09E /* Pods */,
+				84FE31CA3BA62779229C401C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,25 +136,10 @@
 		2F95D8721CA13CA000998288 /* ExampleDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2F95D8761CA13CA000998288 /* AppDelegate.h */,
-				2F95D8771CA13CA000998288 /* AppDelegate.m */,
-				2F95D8791CA13CA000998288 /* ViewController.h */,
-				2F95D87A1CA13CA000998288 /* ViewController.m */,
-				2F95D87C1CA13CA000998288 /* Main.storyboard */,
-				2F95D87F1CA13CA000998288 /* Assets.xcassets */,
-				2F95D8811CA13CA000998288 /* LaunchScreen.storyboard */,
-				2F95D8841CA13CA000998288 /* Info.plist */,
-				2F95D8731CA13CA000998288 /* Supporting Files */,
+				2F95D8A71CA1527500998288 /* controller */,
+				2F95D8A61CA1523300998288 /* other */,
 			);
 			path = ExampleDemo;
-			sourceTree = "<group>";
-		};
-		2F95D8731CA13CA000998288 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				2F95D8741CA13CA000998288 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		2F95D88C1CA13CA000998288 /* ExampleDemoTests */ = {
@@ -140,6 +160,73 @@
 			path = ExampleDemoUITests;
 			sourceTree = "<group>";
 		};
+		2F95D8A61CA1523300998288 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				2F95D8841CA13CA000998288 /* Info.plist */,
+				2F95D8811CA13CA000998288 /* LaunchScreen.storyboard */,
+				2F95D87F1CA13CA000998288 /* Assets.xcassets */,
+				2F95D8761CA13CA000998288 /* AppDelegate.h */,
+				2F95D8771CA13CA000998288 /* AppDelegate.m */,
+				2F95D87C1CA13CA000998288 /* Main.storyboard */,
+				2F95D8741CA13CA000998288 /* main.m */,
+				2F95D8B11CA155B400998288 /* JPublic_Heard.h */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		2F95D8A71CA1527500998288 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2FB0F88A1CA26B8E00A46EB7 /* homePage */,
+				2F95D8AB1CA1539300998288 /* JLeftSwipeViewController.h */,
+				2F95D8AC1CA1539300998288 /* JLeftSwipeViewController.m */,
+				2F95D8AE1CA153A700998288 /* JRightSwipeViewController.h */,
+				2F95D8AF1CA153A700998288 /* JRightSwipeViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2FB0F88A1CA26B8E00A46EB7 /* homePage */ = {
+			isa = PBXGroup;
+			children = (
+				2F95D8A81CA1530A00998288 /* JBaseAnimationController.h */,
+				2F95D8A91CA1530A00998288 /* JBaseAnimationController.m */,
+				2FB0F88B1CA26C6400A46EB7 /* JKeyFrameAnimationController.h */,
+				2FB0F88C1CA26C6400A46EB7 /* JKeyFrameAnimationController.m */,
+				2FB0F88E1CA26C7A00A46EB7 /* JGroupAnimationController.h */,
+				2FB0F88F1CA26C7A00A46EB7 /* JGroupAnimationController.m */,
+				2FB0F8911CA26C9B00A46EB7 /* JTransitionAnimationController.h */,
+				2FB0F8921CA26C9B00A46EB7 /* JTransitionAnimationController.m */,
+				2FB0F8941CA26CAE00A46EB7 /* JAffineTransformController.h */,
+				2FB0F8951CA26CAE00A46EB7 /* JAffineTransformController.m */,
+				2FB0F8971CA26CBD00A46EB7 /* JComprehensiveCaseController.h */,
+				2FB0F8981CA26CBD00A46EB7 /* JComprehensiveCaseController.m */,
+				2FB0F89A1CA26D9500A46EB7 /* JBaseViewController.h */,
+				2FB0F89B1CA26D9500A46EB7 /* JBaseViewController.m */,
+				2FB0F89D1CA26F7300A46EB7 /* UIViewController+Extension.h */,
+				2FB0F89E1CA26F7300A46EB7 /* UIViewController+Extension.m */,
+			);
+			path = homePage;
+			sourceTree = "<group>";
+		};
+		84FE31CA3BA62779229C401C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9F7CE54CEE4951E6AA148DD /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3EF5BAAAB4728AA4F07E09E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CED2AD57F00F66E1033F978D /* Pods.debug.xcconfig */,
+				BEEB6D6260357927A0B57E23 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F95D89D1CA13CA000998288 /* Build configuration list for PBXNativeTarget "ExampleDemo" */;
 			buildPhases = (
+				2186B09E38F9E63A98DF6B65 /* Check Pods Manifest.lock */,
 				2F95D86C1CA13CA000998288 /* Sources */,
 				2F95D86D1CA13CA000998288 /* Frameworks */,
 				2F95D86E1CA13CA000998288 /* Resources */,
+				09A17AB6414835393769D38C /* Embed Pods Frameworks */,
+				BF5E482D0583FACA639B4D6E /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,14 +355,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09A17AB6414835393769D38C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2186B09E38F9E63A98DF6B65 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BF5E482D0583FACA639B4D6E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F95D86C1CA13CA000998288 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F95D87B1CA13CA000998288 /* ViewController.m in Sources */,
+				2FB0F89F1CA26F7300A46EB7 /* UIViewController+Extension.m in Sources */,
+				2FB0F8931CA26C9B00A46EB7 /* JTransitionAnimationController.m in Sources */,
+				2FB0F8901CA26C7A00A46EB7 /* JGroupAnimationController.m in Sources */,
 				2F95D8781CA13CA000998288 /* AppDelegate.m in Sources */,
+				2F95D8AD1CA1539300998288 /* JLeftSwipeViewController.m in Sources */,
+				2FB0F8961CA26CAE00A46EB7 /* JAffineTransformController.m in Sources */,
+				2FB0F8991CA26CBD00A46EB7 /* JComprehensiveCaseController.m in Sources */,
 				2F95D8751CA13CA000998288 /* main.m in Sources */,
+				2FB0F89C1CA26D9500A46EB7 /* JBaseViewController.m in Sources */,
+				2F95D8B01CA153A700998288 /* JRightSwipeViewController.m in Sources */,
+				2F95D8AA1CA1530A00998288 /* JBaseAnimationController.m in Sources */,
+				2FB0F88D1CA26C6400A46EB7 /* JKeyFrameAnimationController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +461,7 @@
 				2F95D87D1CA13CA000998288 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		2F95D8811CA13CA000998288 /* LaunchScreen.storyboard */ = {
@@ -322,6 +470,7 @@
 				2F95D8821CA13CA000998288 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -409,6 +558,7 @@
 		};
 		2F95D89E1CA13CA000998288 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED2AD57F00F66E1033F978D /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ExampleDemo/Info.plist;
@@ -420,6 +570,7 @@
 		};
 		2F95D89F1CA13CA000998288 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEEB6D6260357927A0B57E23 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ExampleDemo/Info.plist;
@@ -496,6 +647,7 @@
 				2F95D89F1CA13CA000998288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F95D8A01CA13CA000998288 /* Build configuration list for PBXNativeTarget "ExampleDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +656,7 @@
 				2F95D8A21CA13CA000998288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F95D8A31CA13CA000998288 /* Build configuration list for PBXNativeTarget "ExampleDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +665,7 @@
 				2F95D8A51CA13CA000998288 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

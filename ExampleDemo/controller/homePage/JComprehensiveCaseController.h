@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JBaseViewController.h"
 
-@interface JComprehensiveCaseController : UIViewController
+@interface JComprehensiveCaseController : JBaseViewController
 
 @end

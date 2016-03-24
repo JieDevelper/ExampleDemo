@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JBaseViewController.h"
 
-@interface JTransitionAnimationController : UIViewController
+@interface JTransitionAnimationController : JBaseViewController
 
 @end

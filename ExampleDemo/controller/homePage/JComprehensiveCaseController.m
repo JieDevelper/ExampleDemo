@@ -7,7 +7,18 @@
 //
 
 #import "JComprehensiveCaseController.h"
+@interface JComprehensiveCaseController()
+
+@end
+
 
 @implementation JComprehensiveCaseController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+
+- (NSArray *)operationButtonTitles {
+    return @[@"Path",@"钉钉",@"点赞"];
+}
 @end

@@ -8,6 +8,16 @@
 
 #import "JAffineTransformController.h"
 
-@implementation JAffineTransformController
+@interface JAffineTransformController()
 
+@end
+
+@implementation JAffineTransformController
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+
+- (NSArray *)operationButtonTitles {
+    return @[@"位移",@"缩放",@"旋转",@"组合",@"反转"];
+}
 @end

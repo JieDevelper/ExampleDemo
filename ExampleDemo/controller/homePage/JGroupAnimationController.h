@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JBaseViewController.h"
 
-@interface JGroupAnimationController : UIViewController
+@interface JGroupAnimationController : JBaseViewController
 
 @end

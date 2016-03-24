@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "JBaseAnimationController.h"
+#import "SWRevealViewController.h"
+#import "JLeftSwipeViewController.h"
+#import "JRightSwipeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +21,21 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    
+    JBaseAnimationController *baseAni = [[JBaseAnimationController alloc] init];
+    JLeftSwipeViewController *left = [[JLeftSwipeViewController alloc] init];
+    // JRightSwipeViewController *right = [[JRightSwipeViewController alloc] init];
+    
+    SWRevealViewController *sw = [[SWRevealViewController alloc] initWithRearViewController:left frontViewController:baseAni];
+    //sw.rightViewController  = right;
+    sw.rearViewRevealWidth = 200;
+    //sw.rightViewRevealWidth = 200;
+    sw.rearViewRevealOverdraw = 0.6;
+    
+    [sw setFrontViewPosition:FrontViewPositionLeft animated:YES];
+    self.window.rootViewController = sw;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

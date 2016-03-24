@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SWRevealViewController.h"
+#import "JPublic_Heard.h"
 
 @interface JBaseViewController : UIViewController
+
+//导航栏title
+@property (nonatomic, copy) NSString *textTitle;
+
+//底下操作按钮title
+@property (nonatomic, strong) NSArray *operationButtonTitles;
+
 
 @end

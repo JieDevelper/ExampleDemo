@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface JHomePageViewController : UIViewController
+#import "JBaseViewController.h"
+@interface JBaseAnimationController : JBaseViewController
 
 @end

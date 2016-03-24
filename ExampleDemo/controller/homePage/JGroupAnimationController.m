@@ -7,7 +7,18 @@
 //
 
 #import "JGroupAnimationController.h"
+@interface JGroupAnimationController()
+
+
+@end
 
 @implementation JGroupAnimationController
 
+- (void)viewDidLoad {
+    [super viewDidLoad];
+}
+
+- (NSArray *)operationButtonTitles {
+    return @[@"同时",@"连续"];
+}
 @end

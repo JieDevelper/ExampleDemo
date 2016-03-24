@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "JBaseViewController.h"
 
-@interface JKeyFrameAnimationController : UIViewController
+@interface JKeyFrameAnimationController : JBaseViewController
 
 @end
