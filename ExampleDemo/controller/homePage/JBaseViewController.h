@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "SWRevealViewController.h"
 #import "JPublic_Heard.h"
+#define SCREEN_WIDTH ([[UIScreen mainScreen] bounds].size.width)
+#define SCREEN_HEIGHT ([[UIScreen mainScreen] bounds].size.height)
 
 @interface JBaseViewController : UIViewController
 
@@ -18,5 +20,5 @@
 //底下操作按钮title
 @property (nonatomic, strong) NSArray *operationButtonTitles;
 
-
+- (void)clickBtn:(UIButton *)btn;
 @end

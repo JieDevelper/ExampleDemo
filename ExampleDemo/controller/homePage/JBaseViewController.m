@@ -66,6 +66,8 @@
         UIButton *button = [[UIButton alloc] init];
         [button setTitle:title forState:UIControlStateNormal];
         [button setBackgroundColor:[UIColor grayColor]];
+        [button setTitleColor:[UIColor blackColor] forState:UIControlStateHighlighted];
+        [button addTarget:self action:@selector(clickBtn:) forControlEvents:UIControlEventTouchUpInside];
         [self.opertionButtons addObject:button];
         [self.view addSubview:button];
     }
@@ -75,6 +77,7 @@
     int col = 4;
     for (int i = 0; i<self.opertionButtons.count; i++) {
         UIButton *button = self.opertionButtons[i];
+        button.tag = i;
         if (preButton) {
             [button makeConstraints:^(MASConstraintMaker *make) {
                 if ((i + 1) % col == 0 || ((i+1) == self.opertionButtons.count && i < 4)) {
@@ -94,7 +97,7 @@
             }];
             
         }else {
-            [button mas_makeConstraints:^(MASConstraintMaker *make) {
+            [button makeConstraints:^(MASConstraintMaker *make) {
                 make.left.equalTo(self.view).offset(kButtonMargin);
                 make.bottom.equalTo(self.view).offset(-kButtonMargin);
                 make.height.equalTo(kButtonHeight);
@@ -109,4 +112,7 @@
     NSLog(@"%@ dealloc",[self class]);
 }
 
+- (void)clickBtn:(UIButton *)btn {
+    
+}
 @end
